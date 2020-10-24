@@ -1,11 +1,11 @@
 package com.bitm.SeleniumOnlineProject.Utils;
 
-//import org.junit.Test;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 //import org.testng.annotations.Test;
-//import com.google.common.annotations.VisibleForTesting;
+
+import com.google.common.annotations.VisibleForTesting;
 
 public class DriverManager {
 	
@@ -16,7 +16,7 @@ public class DriverManager {
 	
 	public static WebDriver chromedriver = new ChromeDriver();
 	
-	 @Test
+	 @org.testng.annotations.Test
 	 public void DriveManagerTest() {
 		
 	}

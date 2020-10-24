@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SeleniumOnlineProject">
+              <span class="suite-name border-passed">SeleniumOnlineProject</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SeleniumOnlineProject">
+                    <span>C:\Users\Nayeem\eclipse-workspace\SeleniumOnlineProject\src\main\java\Suit.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SeleniumOnlineProject">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SeleniumOnlineProject">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SeleniumOnlineProject">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SeleniumOnlineProject">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SeleniumOnlineProject">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SeleniumOnlineProject">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SeleniumOnlineProject" class="hide-methods passed suite-SeleniumOnlineProject"> (hide)</a> <!-- hide-methods passed suite-SeleniumOnlineProject -->
+                      <a href="#" panel-name="suite-SeleniumOnlineProject" class="show-methods passed suite-SeleniumOnlineProject"> (show)</a> <!-- show-methods passed suite-SeleniumOnlineProject -->
+                    </span>
+                    <div class="method-list-content passed suite-SeleniumOnlineProject">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.ClickAssignTest" hash-for-method="Assign">Assign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest" hash-for-method="Assignleavetest([AssignLeaveDTO [EmployeeName=Orange Test]])">Assignleavetest([AssignLeaveDTO [EmployeeName=Orange Test]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest" hash-for-method="ClickAssignLeavetest">ClickAssignLeavetest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest" hash-for-method="ClickLeavetest([LeaveTypeDTO [LeaveType=US - FMLA]])">ClickLeavetest([LeaveTypeDTO [LeaveType=US - FMLA]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.CommentTest" hash-for-method="Comment([CommentDTO [com=I Need Emengency Leave.]])">Comment([CommentDTO [com=I Need Emengency Leave.]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest" hash-for-method="Confirm">Confirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.DateSelectTest" hash-for-method="FromDate([FromDateDTO [Month=Nov, year=2020, date=20]])">FromDate([FromDateDTO [Month=Nov, year=2020, date=20]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest" hash-for-method="LeaveBalance">LeaveBalance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest" hash-for-method="LeaveBalanceDetails">LeaveBalanceDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.LoginTest" hash-for-method="Logintest([LoginDTO [username=admin, password=admin123]])">Logintest([LoginDTO [username=admin, password=admin123]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.DateSelectTest" hash-for-method="ToDate([ToDateDTO [Month=Dec, year=2021, date=30]])">ToDate([ToDateDTO [Month=Dec, year=2021, date=30]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SeleniumOnlineProject" title="com.bitm.SeleniumOnlineProject.Test.LoginTest" hash-for-method="checkLoginPageTitle">checkLoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SeleniumOnlineProject -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SeleniumOnlineProject" class="panel SeleniumOnlineProject">
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickLeavetest([LeaveTypeDTO [LeaveType=US - FMLA]])">
+                  </a> <!-- ClickLeavetest([LeaveTypeDTO [LeaveType=US - FMLA]]) -->
+                  <span class="method-name">ClickLeavetest</span>
+                  <span class="parameters">([LeaveTypeDTO [LeaveType=US - FMLA]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintest([LoginDTO [username=admin, password=admin123]])">
+                  </a> <!-- Logintest([LoginDTO [username=admin, password=admin123]]) -->
+                  <span class="method-name">Logintest</span>
+                  <span class="parameters">([LoginDTO [username=admin, password=admin123]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLoginPageTitle">
+                  </a> <!-- checkLoginPageTitle -->
+                  <span class="method-name">checkLoginPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.CommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Comment([CommentDTO [com=I Need Emengency Leave.]])">
+                  </a> <!-- Comment([CommentDTO [com=I Need Emengency Leave.]]) -->
+                  <span class="method-name">Comment</span>
+                  <span class="parameters">([CommentDTO [com=I Need Emengency Leave.]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.ClickAssignTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Assign">
+                  </a> <!-- Assign -->
+                  <span class="method-name">Assign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Assignleavetest([AssignLeaveDTO [EmployeeName=Orange Test]])">
+                  </a> <!-- Assignleavetest([AssignLeaveDTO [EmployeeName=Orange Test]]) -->
+                  <span class="method-name">Assignleavetest</span>
+                  <span class="parameters">([AssignLeaveDTO [EmployeeName=Orange Test]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickAssignLeavetest">
+                  </a> <!-- ClickAssignLeavetest -->
+                  <span class="method-name">ClickAssignLeavetest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Confirm">
+                  </a> <!-- Confirm -->
+                  <span class="method-name">Confirm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeaveBalance">
+                  </a> <!-- LeaveBalance -->
+                  <span class="method-name">LeaveBalance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LeaveBalanceDetails">
+                  </a> <!-- LeaveBalanceDetails -->
+                  <span class="method-name">LeaveBalanceDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+          <div class="suite-SeleniumOnlineProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.SeleniumOnlineProject.Test.DateSelectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FromDate([FromDateDTO [Month=Nov, year=2020, date=20]])">
+                  </a> <!-- FromDate([FromDateDTO [Month=Nov, year=2020, date=20]]) -->
+                  <span class="method-name">FromDate</span>
+                  <span class="parameters">([FromDateDTO [Month=Nov, year=2020, date=20]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToDate([ToDateDTO [Month=Dec, year=2021, date=30]])">
+                  </a> <!-- ToDate([ToDateDTO [Month=Dec, year=2021, date=30]]) -->
+                  <span class="method-name">ToDate</span>
+                  <span class="parameters">([ToDateDTO [Month=Dec, year=2021, date=30]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SeleniumOnlineProject-class-passed -->
+        </div> <!-- panel SeleniumOnlineProject -->
+        <div panel-name="test-xml-SeleniumOnlineProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nayeem\eclipse-workspace\SeleniumOnlineProject\src\main\java\Suit.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SeleniumOnlineProject&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;NewTourSiteTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest&quot;/&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest&quot;/&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest&quot;/&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.DateSelectTest&quot;/&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.CommentTest&quot;/&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.ClickAssignTest&quot;/&gt;
+      &lt;class name=&quot;com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NewTourSiteTest --&gt;
+&lt;/suite&gt; &lt;!-- SeleniumOnlineProject --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SeleniumOnlineProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SeleniumOnlineProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">NewTourSiteTest (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SeleniumOnlineProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SeleniumOnlineProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SeleniumOnlineProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SeleniumOnlineProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SeleniumOnlineProject');
+function tableData_SeleniumOnlineProject() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkLoginPageTitle')
+data.setCell(0, 2, 'com.bitm.SeleniumOnlineProject.Test.LoginTest')
+data.setCell(0, 3, 12929);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Logintest')
+data.setCell(1, 2, 'com.bitm.SeleniumOnlineProject.Test.LoginTest')
+data.setCell(1, 3, 6772);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickAssignLeavetest')
+data.setCell(2, 2, 'com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest')
+data.setCell(2, 3, 2596);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Assign')
+data.setCell(3, 2, 'com.bitm.SeleniumOnlineProject.Test.ClickAssignTest')
+data.setCell(3, 3, 2335);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Confirm')
+data.setCell(4, 2, 'com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest')
+data.setCell(4, 3, 1448);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ToDate')
+data.setCell(5, 2, 'com.bitm.SeleniumOnlineProject.Test.DateSelectTest')
+data.setCell(5, 3, 1396);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FromDate')
+data.setCell(6, 2, 'com.bitm.SeleniumOnlineProject.Test.DateSelectTest')
+data.setCell(6, 3, 1146);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LeaveBalance')
+data.setCell(7, 2, 'com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest')
+data.setCell(7, 3, 1127);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ClickLeavetest')
+data.setCell(8, 2, 'com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest')
+data.setCell(8, 3, 500);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Comment')
+data.setCell(9, 2, 'com.bitm.SeleniumOnlineProject.Test.CommentTest')
+data.setCell(9, 3, 212);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Assignleavetest')
+data.setCell(10, 2, 'com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest')
+data.setCell(10, 3, 120);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LeaveBalanceDetails')
+data.setCell(11, 2, 'com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest')
+data.setCell(11, 3, 79);
+window.suiteTableData['SeleniumOnlineProject']= { tableData: data, tableDiv: 'times-div-SeleniumOnlineProject'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-SeleniumOnlineProject">
+              </div> <!-- times-div-SeleniumOnlineProject -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SeleniumOnlineProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SeleniumOnlineProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SeleniumOnlineProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SeleniumOnlineProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkLoginPageTitle</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Logintest([LoginDTO [username=admin, password=admin123]])</span>
+                <span class="method-start">25257 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ClickAssignLeavetest</span>
+                <span class="method-start">32034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Assignleavetest([AssignLeaveDTO [EmployeeName=Orange Test]])</span>
+                <span class="method-start">34697 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ClickLeavetest([LeaveTypeDTO [LeaveType=US - FMLA]])</span>
+                <span class="method-start">34896 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LeaveBalance</span>
+                <span class="method-start">35400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LeaveBalanceDetails</span>
+                <span class="method-start">36531 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.DateSelectTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FromDate([FromDateDTO [Month=Nov, year=2020, date=20]])</span>
+                <span class="method-start">37054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ToDate([ToDateDTO [Month=Dec, year=2021, date=30]])</span>
+                <span class="method-start">38282 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.CommentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Comment([CommentDTO [com=I Need Emengency Leave.]])</span>
+                <span class="method-start">39762 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.ClickAssignTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Assign</span>
+                <span class="method-start">39976 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Confirm</span>
+                <span class="method-start">42313 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

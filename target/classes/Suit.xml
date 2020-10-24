@@ -1,0 +1,16 @@
+<suite name="SeleniumOnlineProject" verbose="1">
+	<test name="NewTourSiteTest">
+		<classes>
+			<class name="com.bitm.SeleniumOnlineProject.Test.LoginTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.DateSelectTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.CommentTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.ClickAssignTest" />
+			<class name="com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest" />
+			
+		</classes>
+	</test>
+
+</suite>

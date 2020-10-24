@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumOnlineProject" duration-ms="43805" started-at="2020-10-24T18:35:52 BDT" finished-at="2020-10-24T18:36:36 BDT">
+    <groups>
+    </groups>
+    <test name="NewTourSiteTest" duration-ms="43805" started-at="2020-10-24T18:35:52 BDT" finished-at="2020-10-24T18:36:36 BDT">
+      <class name="com.bitm.SeleniumOnlineProject.Test.LoginTest">
+        <test-method status="PASS" signature="checkLoginPageTitle()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4d95d2a2]" name="checkLoginPageTitle" duration-ms="12929" started-at="2020-10-24T18:35:53 BDT" finished-at="2020-10-24T18:36:05 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginPageTitle -->
+        <test-method status="PASS" signature="Logintest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LoginTest@4d95d2a2]" name="Logintest" duration-ms="6772" started-at="2020-10-24T18:36:18 BDT" data-provider="loginData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LoginTest.checkLoginPageTitle" finished-at="2020-10-24T18:36:25 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LoginDTO [username=admin, password=admin123]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.LoginTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.CommentTest">
+        <test-method status="PASS" signature="Comment(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.CommentTest@15d0c81b]" name="Comment" duration-ms="212" started-at="2020-10-24T18:36:32 BDT" data-provider="CommentData" finished-at="2020-10-24T18:36:32 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[CommentDTO [com=I Need Emengency Leave.]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Comment -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.CommentTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.ClickAssignTest">
+        <test-method status="PASS" signature="Assign()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.ClickAssignTest@6acdbdf5]" name="Assign" duration-ms="2335" started-at="2020-10-24T18:36:32 BDT" finished-at="2020-10-24T18:36:35 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assign -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.ClickAssignTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest">
+        <test-method status="PASS" signature="LeaveBalance()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest@1786dec2]" name="LeaveBalance" duration-ms="1127" started-at="2020-10-24T18:36:28 BDT" finished-at="2020-10-24T18:36:29 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeaveBalance -->
+        <test-method status="PASS" signature="LeaveBalanceDetails()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest@1786dec2]" name="LeaveBalanceDetails" duration-ms="79" started-at="2020-10-24T18:36:29 BDT" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest.LeaveBalance" finished-at="2020-10-24T18:36:29 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeaveBalanceDetails -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.LeaveBalanceTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest">
+        <test-method status="PASS" signature="ClickLeavetest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest@3b088d51]" name="ClickLeavetest" duration-ms="500" started-at="2020-10-24T18:36:27 BDT" data-provider="LeaveTypedata" finished-at="2020-10-24T18:36:28 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[LeaveTypeDTO [LeaveType=US - FMLA]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLeavetest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.LeaveTypeTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest">
+        <test-method status="PASS" signature="Confirm()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest@4b1c1ea0]" name="Confirm" duration-ms="1448" started-at="2020-10-24T18:36:35 BDT" finished-at="2020-10-24T18:36:36 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confirm -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.ConfirmLeaveAssignmentTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest">
+        <test-method status="PASS" signature="ClickAssignLeavetest()[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest@53f65459]" name="ClickAssignLeavetest" duration-ms="2596" started-at="2020-10-24T18:36:25 BDT" finished-at="2020-10-24T18:36:27 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAssignLeavetest -->
+        <test-method status="PASS" signature="Assignleavetest(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest@53f65459]" name="Assignleavetest" duration-ms="120" started-at="2020-10-24T18:36:27 BDT" data-provider="AssignLeaveData" depends-on-methods="com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest.ClickAssignLeavetest" finished-at="2020-10-24T18:36:27 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[AssignLeaveDTO [EmployeeName=Orange Test]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assignleavetest -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.AssignLeaveTest -->
+      <class name="com.bitm.SeleniumOnlineProject.Test.DateSelectTest">
+        <test-method status="PASS" signature="FromDate(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.DateSelectTest@74650e52]" name="FromDate" duration-ms="1146" started-at="2020-10-24T18:36:30 BDT" data-provider="FromDateData" finished-at="2020-10-24T18:36:31 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[FromDateDTO [Month=Nov, year=2020, date=20]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FromDate -->
+        <test-method status="PASS" signature="ToDate(java.util.List)[pri:0, instance:com.bitm.SeleniumOnlineProject.Test.DateSelectTest@74650e52]" name="ToDate" duration-ms="1396" started-at="2020-10-24T18:36:31 BDT" data-provider="ToDateData" finished-at="2020-10-24T18:36:32 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[ToDateDTO [Month=Dec, year=2021, date=30]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToDate -->
+      </class> <!-- com.bitm.SeleniumOnlineProject.Test.DateSelectTest -->
+    </test> <!-- NewTourSiteTest -->
+  </suite> <!-- SeleniumOnlineProject -->
+</testng-results>
